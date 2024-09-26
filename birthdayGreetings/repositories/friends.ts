@@ -4,7 +4,7 @@ import Friend from "../interfaces/friend";
 
 const clock = new Clock(new Date());
 
-export const friends: Friend[] = [
+const friends: Friend[] = [
   {
     name: "pippo",
     greetChoice: "sms",
@@ -27,3 +27,4 @@ export const friends: Friend[] = [
     myBirthday: new myBirthday({ day: 26, month: 9, year: 2020 }, clock),
   },
 ];
+export default friends;

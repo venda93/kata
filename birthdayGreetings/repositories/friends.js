@@ -1,10 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.friends = void 0;
 var clock_1 = require("../classes/clock");
 var myBirthday_1 = require("../classes/myBirthday");
 var clock = new clock_1.default(new Date());
-exports.friends = [
+var friends = [
     {
         name: "pippo",
         greetChoice: "sms",
@@ -27,3 +26,4 @@ exports.friends = [
         myBirthday: new myBirthday_1.default({ day: 26, month: 9, year: 2020 }, clock),
     },
 ];
+exports.default = friends;

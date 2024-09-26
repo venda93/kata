@@ -1,6 +1,6 @@
 import BirthdayGreetings from "./classes/birthdayGreetings";
 import Messenger from "./classes/messenger";
-import { friends } from "./repositories/friends";
+import friends from "./repositories/friends";
 
 const messenger = new Messenger();
 
