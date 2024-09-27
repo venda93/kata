@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "nodemon --exec 'ts-node' ./$npm_config_file"
+    "start": "nodemon --exec 'ts-node' ./$npm_config_path/index.ts"
   },
   "devDependencies": {
     "nodemon": "^3.1.7",
