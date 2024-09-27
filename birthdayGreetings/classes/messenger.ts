@@ -1,7 +1,7 @@
-import GreetChoice from "../interfaces/greetChoice";
-import Sender from "../interfaces/sender";
-import emailSender from "./emailSender";
-import smsSender from "./smsSender";
+import GreetChoice from "../interfaces/GreetChoice";
+import Sender from "../interfaces/Sender";
+import EmailSender from "./EmailSender";
+import SmsSender from "./SmsSender";
 
 export default class Messenger {
   getSender(greetChoice: GreetChoice): Sender {
@@ -13,5 +13,5 @@ export default class Messenger {
     }
   }
 }
-const smsSenderInstance = new smsSender();
-const emailSenderInstance = new emailSender();
+const smsSenderInstance = new SmsSender();
+const emailSenderInstance = new EmailSender();

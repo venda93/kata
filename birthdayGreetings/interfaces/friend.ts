@@ -1,5 +1,5 @@
-import myBirthday from "../classes/myBirthday";
-import GreetChoice from "./greetChoice";
+import myBirthday from "../classes/MyBirthday";
+import GreetChoice from "./GreetChoice";
 
 export default interface Friend {
   name: string;

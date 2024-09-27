@@ -1,7 +1,7 @@
-import DateObj from "../interfaces/dateObj";
-import Clock from "./clock";
+import DateObj from "../interfaces/DateObj";
+import Clock from "./Clock";
 
-export default class myBirthday {
+export default class MyBirthday {
   constructor(
     private readonly birthdayDate: DateObj,
     private readonly clock: Clock

@@ -1,6 +1,6 @@
-import Clock from "../classes/clock";
-import myBirthday from "../classes/myBirthday";
-import Friend from "../interfaces/friend";
+import Clock from "../classes/Clock";
+import myBirthday from "../classes/MyBirthday";
+import Friend from "../interfaces/Friend";
 
 const clock = new Clock(new Date());
 

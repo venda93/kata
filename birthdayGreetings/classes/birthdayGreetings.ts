@@ -1,5 +1,5 @@
-import Friend from "../interfaces/friend";
-import Messenger from "./messenger";
+import Friend from "../interfaces/Friend";
+import Messenger from "./Messenger";
 export default class BirthdayGreetings {
   constructor(
     private readonly messenger: Messenger,
