@@ -23,7 +23,7 @@ var friends = [
         greetChoice: "email",
         email: "pluto@email.it",
         phoneNumber: "3332332332",
-        myBirthday: new myBirthday_1.default({ day: 26, month: 9, year: 2020 }, clock),
+        myBirthday: new myBirthday_1.default({ day: 27, month: 9, year: 2020 }, clock),
     },
 ];
 exports.default = friends;

@@ -24,7 +24,7 @@ const friends: Friend[] = [
     greetChoice: "email",
     email: "pluto@email.it",
     phoneNumber: "3332332332",
-    myBirthday: new myBirthday({ day: 26, month: 9, year: 2020 }, clock),
+    myBirthday: new myBirthday({ day: 27, month: 9, year: 2020 }, clock),
   },
 ];
 export default friends;
