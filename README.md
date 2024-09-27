@@ -1,2 +1,2 @@
 COMPILE AND START
-npm start --file='PATH_TO_INDEX'
+npm start --path='PATH_TO_INDEX'
